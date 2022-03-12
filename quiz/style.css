@@ -4,13 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  overflow-x: hidden;
-}
 #header
 {
   text-align: center;
   color: rgb(0, 102, 255);
+  overflow-x: hidden;
 }
 #header-name
 {
@@ -30,6 +28,7 @@ body{
 }
 #questions-container
 {
+  overflow-x: hidden;
   padding: 20px;
   background-color: rgb(0, 102, 255);
   color: white;
@@ -85,4 +84,12 @@ body{
   font-size: 1.1rem;
   color: rgb(0, 102, 255);
   cursor: pointer;
+}
+
+@media(max-width: 340px)
+{
+  #header-name
+  {
+  font-size: 2rem !important;
+  }
 }
