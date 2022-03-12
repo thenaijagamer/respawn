@@ -1,0 +1,85 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#header
+{
+  text-align: center;
+  color: rgb(0, 102, 255);
+}
+#header-name
+{
+  font-size: 4rem;
+  padding: 50px 0;
+}
+.score-value
+{
+  padding: 40px 0;
+  color: black;
+  font-size: 1.1rem;
+}
+.big
+{
+  color: rgb(0, 102, 255);
+  font-size: 3rem;
+}
+#questions-container
+{
+  padding: 20px;
+  background-color: rgb(0, 102, 255);
+  color: white;
+}
+#questions-container-header
+{
+  margin: 50px 0;
+}
+.questions
+{
+  margin-bottom: 40px;
+  border-top: solid white 1px;
+  padding-top: 30px;
+}
+.option
+{
+  margin: 10px;
+  font-size: 1.1rem;
+  color: #dddada;
+  display: flex;
+  align-items: center;
+}
+.option input[type="radio"]
+{
+  /* remove standard background appearance... */
+  appearance: none;
+  /* create custom radio button appearance */
+  display: inline-block;
+  width: 15px;
+  height: 15px;  
+  padding: 1px;
+  background-clip: content-box;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+.option input[type="radio"]:checked
+{
+  background-color: rgb(255, 255, 255);
+}
+.span
+{
+  margin-left: 5px;
+}
+#submit
+{
+  text-align: center;
+}
+#submit input
+{
+  margin: 50px 0;
+  padding: 5px 10px;
+  border: 0;
+  font-size: 1.1rem;
+  color: rgb(0, 102, 255);
+  cursor: pointer;
+}
