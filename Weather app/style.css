@@ -1,0 +1,33 @@
+body
+{
+  background-image: linear-gradient(to right, rgb(194, 234, 250), rgb(146, 193, 228));
+  letter-spacing: 0.2em; 
+  font-size: 0.8em;
+}
+.container
+{
+  max-width: 400px;
+}
+.icon
+{
+  position: relative;
+  top: -50px;
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: -50px;
+}
+
+@media(max-width:300px)
+{
+  .container h1
+  {
+    font-size: 1.5em;
+  }
+}
+@media(max-width:200px)
+{
+  .container h1
+  {
+    font-size: 0.9em;
+  }
+}
