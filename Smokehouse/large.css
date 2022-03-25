@@ -1,0 +1,17 @@
+@media (min-width: 970px)
+{
+.nav-div{
+    margin-right: 100px !important;
+}
+.nav-div li{
+    letter-spacing: 4px;
+}
+}
+
+
+@media (min-width: 767px)
+{
+.ham-btn{
+    display: none;
+}
+}
